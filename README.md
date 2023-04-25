@@ -62,6 +62,15 @@ This script provides a flexible and powerful way to combine multiple video strea
 
 - Video production: This script can be used during video production to monitor multiple camera angles at once and create a single output stream for editing and post-production.
 
+## An additional consideration
+In the script, the backslash `\` is used as an escape character to split long commands across multiple lines. When a backslash is used at the end of a line, it tells the shell to ignore the line break and treat the command as a single line.
+
+This technique of using backslashes to split long commands across multiple lines is known as line continuation or line wrapping. It is often used to improve the readability and maintainability of complex shell scripts.
+
+In the script, the backslashes are used to split the `-filter_complex` option into multiple lines for better readability. This option specifies the filtergraph that is used to process the input video streams and generate the output stream. The filtergraph consists of a series of filterchains, each of which contains one or more filter operations separated by semicolons.
+
+By using backslashes to split the `-filter_complex` option into multiple lines, it is easier to understand the filtergraph and modify it if needed. 
+
 ## [Disclaimer](DISCLAIMER)
 **This software is provided "as is" and without warranty of any kind**, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
