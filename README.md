@@ -47,7 +47,20 @@ Finally, you can run the script by typing its filename in the terminal and press
 ```
 
 ## Case specific configuration
-Please note that you may need to modify the script to match the specific RTSP input streams, output destinations, and font files that you are using. You can refer to the FFmpeg documentation for more information on the various options and settings available in the command.
+Please note that you need to modify the script to match the specific RTSP input streams, output destinations, and font files that you are using. You can refer to the FFmpeg documentation for more information on the various options and settings available in the command.
+
+## Applications
+This script provides a flexible and powerful way to combine multiple video streams with custom text overlays and write the output to multiple destinations, making it suitable for a variety of applications, such as:
+
+- Surveillance systems: This script can be used to merge multiple video streams from surveillance cameras into a single output stream that can be easily monitored and recorded.
+
+- Live events: This script can be used to merge multiple video feeds from different cameras at a live event (e.g. sports, concerts) into a single output stream that can be broadcasted to a remote audience.
+
+- Video conferencing: This script can be used to merge multiple video streams from different participants in a video conference into a single output stream that can be shared with other participants or recorded for later viewing.
+
+- Broadcasting: This script can be used to merge multiple video feeds from different sources (e.g. studio cameras, remote cameras) into a single output stream that can be broadcasted to a wider audience.
+
+- Video production: This script can be used during video production to monitor multiple camera angles at once and create a single output stream for editing and post-production.
 
 ## [Disclaimer](DISCLAIMER)
 **This software is provided "as is" and without warranty of any kind**, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
