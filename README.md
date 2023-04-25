@@ -1,5 +1,5 @@
-# RTSP downmix 4 to 1, in a 2x2 grid
-Downmix four streams to one stream, in a 2x2 grid, split the output and label them on one side, and record an unlabeled file.
+# RTSP downmix
+RTSP downmix: (4)in, (1)out. 2x2 grid. Labels outbound stream, records unlabeled local file. Bash.
 
 ## About
 This script contains a command for `FFmpeg`, a popular open-source multimedia framework that allows users to encode, decode, transcode, and stream audio and video files.
